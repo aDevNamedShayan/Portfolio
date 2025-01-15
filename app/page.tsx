@@ -1,5 +1,6 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { HomeIcon } from "lucide-react";
 import Image from "next/image";
@@ -13,8 +14,9 @@ export default function Home() {
             {name: "Home", link: "/", icon: <HomeIcon />}
           ]}
         />
-        <Hero />
-        <Grid />
+        {/* <Hero /> */}
+        {/* <Grid /> */}
+        <RecentProjects />
       </div>
     </main>
   );
